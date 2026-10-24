@@ -1,0 +1,15 @@
+#include <iostream> 
+#include <cmath>
+using namespace std;
+
+int main () {
+    cout << "Type the temperature in celsius" << endl;
+    double celsius; 
+    cin >> celsius;
+    double farenheit = (1.8*celsius) + 32;
+    cout << "The temperature in farenheit." << farenheit;
+
+    return 0;
+
+
+}
